@@ -22,7 +22,7 @@ class ProfileSetupScreen extends StatefulWidget {
 }
 
 class _ProfileSetupScreenState extends State<ProfileSetupScreen> {
-  final _controller = TextEditingController(text: 'Aarav Mehta');
+  final _controller = TextEditingController(text: 'Ashish Tawade');
   final _formKey = GlobalKey<FormState>();
   final _palette = const [
     Color(0xFFB0413E),

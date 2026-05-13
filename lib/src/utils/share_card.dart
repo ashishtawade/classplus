@@ -19,11 +19,9 @@ Future<void> shareBoundaryImage(
   }
 
   final file = await _writeImage(bytes, fileName);
-  await SharePlus.instance.share(
-    ShareParams(
-      files: [XFile(file.path)],
-      text: text,
-    ),
+  await Share.shareXFiles(
+    [XFile(file.path)],
+    text: text,
   );
 }
 
