@@ -1,0 +1,93 @@
+import 'package:flutter/material.dart';
+
+import '../models/greeting_template.dart';
+
+const categories = <String>[
+  'Birthday',
+  'Anniversary',
+  'Festivals',
+  'Work Wins',
+];
+
+const templateCatalog = <GreetingTemplate>[
+  GreetingTemplate(
+    id: 'birthday-01',
+    title: 'Golden Hour',
+    category: 'Birthday',
+    message: 'A day built for your loudest laugh and brightest plans.',
+    isPremium: false,
+    colors: [Color(0xFFF4B266), Color(0xFFD96C54), Color(0xFF582C4D)],
+    badgeText: 'Free',
+    patternAlignment: Alignment.topRight,
+  ),
+  GreetingTemplate(
+    id: 'birthday-02',
+    title: 'Confetti Club',
+    category: 'Birthday',
+    message: 'Cake, music, and a little drama. Exactly right.',
+    isPremium: true,
+    colors: [Color(0xFF2A3D66), Color(0xFF5D54A4), Color(0xFFF79D65)],
+    badgeText: 'Premium',
+    patternAlignment: Alignment.centerLeft,
+  ),
+  GreetingTemplate(
+    id: 'anniversary-01',
+    title: 'Quiet Bloom',
+    category: 'Anniversary',
+    message: 'Here is to the kind of love that grows roots.',
+    isPremium: false,
+    colors: [Color(0xFF4C956C), Color(0xFF2C6E49), Color(0xFFF4E1D2)],
+    badgeText: 'Free',
+    patternAlignment: Alignment.bottomRight,
+  ),
+  GreetingTemplate(
+    id: 'anniversary-02',
+    title: 'Velvet Notes',
+    category: 'Anniversary',
+    message: 'Still choosing each other. Still making it look easy.',
+    isPremium: true,
+    colors: [Color(0xFF361134), Color(0xFFB0228C), Color(0xFFF7D6E0)],
+    badgeText: 'Premium',
+    patternAlignment: Alignment.topLeft,
+  ),
+  GreetingTemplate(
+    id: 'festival-01',
+    title: 'Lantern Trail',
+    category: 'Festivals',
+    message: 'Light spilling into every corner of the season.',
+    isPremium: false,
+    colors: [Color(0xFF12355B), Color(0xFF3C91E6), Color(0xFFF3C677)],
+    badgeText: 'Free',
+    patternAlignment: Alignment.topCenter,
+  ),
+  GreetingTemplate(
+    id: 'festival-02',
+    title: 'Marigold Street',
+    category: 'Festivals',
+    message: 'Warm doors, louder colors, and people worth gathering for.',
+    isPremium: true,
+    colors: [Color(0xFF8C1C13), Color(0xFFBF4342), Color(0xFFE7D7C1)],
+    badgeText: 'Premium',
+    patternAlignment: Alignment.bottomLeft,
+  ),
+  GreetingTemplate(
+    id: 'work-01',
+    title: 'New Milestone',
+    category: 'Work Wins',
+    message: 'Momentum looks good on you. Keep going.',
+    isPremium: false,
+    colors: [Color(0xFF0B6E4F), Color(0xFF08A045), Color(0xFFDDF2D1)],
+    badgeText: 'Free',
+    patternAlignment: Alignment.centerRight,
+  ),
+  GreetingTemplate(
+    id: 'work-02',
+    title: 'Studio Finish',
+    category: 'Work Wins',
+    message: 'Sharp work, steady nerve, and the finish to prove it.',
+    isPremium: true,
+    colors: [Color(0xFF111827), Color(0xFF374151), Color(0xFFF59E0B)],
+    badgeText: 'Premium',
+    patternAlignment: Alignment.bottomCenter,
+  ),
+];

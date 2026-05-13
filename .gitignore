@@ -1,0 +1,21 @@
+# Flutter / Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+build/
+
+# IDE
+.idea/
+.vscode/
+
+# Platform folders
+android/
+ios/
+linux/
+macos/
+web/
+windows/
+
+# Misc
+pubspec.lock
