@@ -9,13 +9,5 @@ build/
 .idea/
 .vscode/
 
-# Platform folders
-android/
-ios/
-linux/
-macos/
-web/
-windows/
-
 # Misc
 pubspec.lock
